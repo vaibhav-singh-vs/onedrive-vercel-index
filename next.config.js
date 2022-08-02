@@ -1,11 +1,12 @@
 const { i18n } = require('./next-i18next.config')
 
 module.exports = {
-  async rewrites() {
+  async redirects() {
     return [
       {
         source: '/0',
         destination: '/',
+        permanent: true,
       },
     ];
   },
