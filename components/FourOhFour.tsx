@@ -24,7 +24,6 @@ const FourOhFour: React.FC<{ errorMsg: string }> = ({ errorMsg }) => {
               F12
             </kbd>{' '}
             and open devtools for more details.
-            .
           </Trans>
         </div>
       </div>
