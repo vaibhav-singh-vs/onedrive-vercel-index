@@ -6,3 +6,14 @@ module.exports = {
   // Required by Next i18n with API routes, otherwise API routes 404 when fetching without trailing slash
   trailingSlash: true
 }
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/about',
+        destination: '/',
+        permanent: false,
+      },
+    ];
+  },
+};
