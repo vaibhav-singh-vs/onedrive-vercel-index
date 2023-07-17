@@ -23,7 +23,7 @@ import {
 
 import { layouts } from './SwitchLayout'
 import Loading, { LoadingIcon } from './Loading'
-//import FourOhFour from './FourOhFour'
+import FourOhFour from './FourOhFour'
 import Auth from './Auth'
 import TextPreview from './previews/TextPreview'
 import MarkdownPreview from './previews/MarkdownPreview'
